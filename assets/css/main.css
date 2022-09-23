@@ -2102,6 +2102,10 @@ input, select, textarea {
 		color: #808080 !important;
 	}
 
+	.responsive-text-size{
+		font-size: .9rem !important;
+	}
+
 	.sky-blue{
 		background-color: #4361c2 !important;
 	}
