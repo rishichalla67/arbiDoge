@@ -2083,6 +2083,18 @@ input, select, textarea {
 				}
 
 /* Section/Article */
+	.removeDecoration{
+		text-decoration: none !important;
+	}
+
+	.hoverIMG:hover{
+		background-color: #1b90dd !important;
+		color: white !important;
+	}
+	.black-text{
+		color: black !important;
+	}
+
 	.red{
 		color: #ff8080 !important;
 	}
@@ -2090,6 +2102,14 @@ input, select, textarea {
 		color: #808080 !important;
 	}
 
+	.sky-blue{
+		background-color: #85ccfc !important
+	}
+
+	.blue{
+		color: blue !important;
+		text-decoration: none !important;
+	}
 	.box-brown{
 		color: #AD8762 !important;
 	}
@@ -3013,10 +3033,10 @@ input, select, textarea {
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
+		background-color: #85ccfc;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		/* background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2); */
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
