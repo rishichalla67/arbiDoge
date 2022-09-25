@@ -2123,7 +2123,7 @@ input, select, textarea {
 	}
 
 	.doge-font{
-		font-family: "Comic Sans MS" !important;
+		font-family: "Comic Sans MS", "Comic Sans" !important;
 	}
 
 	section.special, article.special {
